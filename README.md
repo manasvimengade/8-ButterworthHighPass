@@ -1,2 +1,3 @@
 # 8-ButterworthHighPass
 This script applies a Butterworth high-pass filter to enhance edges by removing low-frequency components. It transforms the image to the frequency domain using FFT, applies the filter, and converts it back using inverse FFT. The result is a sharpened image with enhanced details.
+The script reads a grayscale image and converts it to the frequency domain using FFT. A Butterworth high-pass filter is applied to remove low-frequency components while preserving high-frequency details. The filtered frequency data is transformed back using the inverse FFT. The result is normalized to enhance visibility, and both the original and filtered images are displayed.
